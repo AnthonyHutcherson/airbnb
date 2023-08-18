@@ -1,0 +1,329 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-section background-color="#fefefe" padding="0px 15px" />
+            <mj-image padding="0" />
+            <mj-text padding="0"/>
+            <mj-class name="red" color="#ff5a5f" />
+            <mj-class name="black" color="#0a0a0a" />
+            <mj-class name="text-body" font-size="16px" />
+            <mj-all font-family="Montserrat, Arial, sans-serif" />
+        </mj-attributes>
+        <mj-style inline="inline">
+            h1{
+              padding: 0px;
+            }
+            p{
+              padding: 0px;
+              margin: 0px !important;
+            }
+            span{
+              padding: 0px;
+              margin: 0px !important;
+            }
+            .padding{
+              padding: 0;
+            }
+        </mj-style>
+        <mj-style>
+            .top-button{
+              text-decoration: none;
+              background-color: #ff5a5f;
+              color: #ffffff;
+              padding: 20px 0px;
+              display: block;
+              border-radius: 5px;
+            }
+            .top-button:hover{
+              color: #ffffff;
+            }
+            .top-button2{
+              text-decoration: none;
+              background-color: none;
+              color: #0a0a0a;
+              padding: 20px 0px;
+              display: block;
+              border-radius: 5px;
+              border: 3px solid #d3d3d3;
+            }
+            .top-button2:hover{
+              color: #0a0a0a;
+            }
+            @media only screen and (max-width: 479px) {
+        .ant-pic, .review{
+          display: block;
+          padding-right: 33% !important;
+          padding-left: 33% !important;
+        }
+      }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#9ca299" css-class="padding">
+    <mj-wrapper background-color="#ffffff" padding="20px 50px">
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://a1.muscache.com/airbnb/rookery/dls/logo_standard_2x-c0ed1450d18490825bc37dd6cb23e5c5.png" 
+        height="30px" width="95px" align="left" padding="50px 0 40px 0" alt="Airbnb logo" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="16px">
+          <h1 style="padding: 0px 0px 20px 0px; margin: 0px;">Your reservation is confirmed</h1>
+          <p style="font-size: 18px; padding: 0px 0px 30px 0px">You're going to San Francisco.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://a0.muscache.com/im/pictures/3a4e6241-7bd2-47e0-8f67-5c3c6e21d20a.jpg" alt="bedroom interior" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="85%">
+        <mj-text padding="40px 0 0px 0px" font-size="24px">
+          Superhosted Castro Studio. Easy Parking.
+        </mj-text>
+        <mj-text font-size="24px" padding="10px 0 0 0">
+          No Keys.
+        </mj-text>
+        <mj-text font-size="18px" padding="10px 0 0 0">
+          Entire home/apt hosted by Anthony
+        </mj-text>
+      </mj-column>
+      <mj-column width="15%">
+        <mj-image css-class="ant-pic" padding="30px 0px 0px 0px" src="https://i.ibb.co/xHLHtMH/Anthony.jpg" width="80px" border-radius="50%" align="right" alt="Anthony" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="20px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text padding="35px 0 0px 0px" font-size="24px">
+          Tuesday,
+        </mj-text>
+        <mj-text font-size="24px" padding="5px 0 0 0">
+          August 21, 2023
+        </mj-text>
+        <mj-text font-size="18px" padding="5px 0 0 0">
+          Check in Anytime after 3pm
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text padding="35px 0 0px 0px" font-size="24px" align="right">
+          Friday,
+        </mj-text>
+        <mj-text font-size="24px" padding="5px 0 0 0" align="right">
+          August 24, 2023
+        </mj-text>
+        <mj-text font-size="18px" padding="5px 0 0 0" align="right">
+          Check out 11AM
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="20px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center"font-size="24px" font-weight="600" padding="35px 0 0">
+          <a href="#" class="top-button">View Full Iternary</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="35px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="60%">
+        <mj-text padding="35px 0 0px 0px" font-size="24px">
+          Address
+        </mj-text>
+        <mj-text font-size="24px" padding="20px 0 0 0">
+          650 Street, San Francisco, CA 94114,
+        </mj-text>
+        <mj-text font-size="18px" padding="10px 0 0 0">
+          United States
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text padding="35px 0 0px 0px" font-size="24px" align="right">
+          <a href="#"class="directions" style="text-decoration: none; color: #ff5a5f">Get Directions</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="35px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text padding="35px 0 0px 0px" font-size="24px">
+          <p>Guests</p>
+        </mj-text>
+        <mj-text font-size="24px" padding="20px 0 0 0">
+          <p>1</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="35px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text padding="35px 0 0px 0px" font-size="24px">
+          <p>Amount</p>
+        </mj-text>
+        <mj-text font-size="24px" padding="20px 0 0 0">
+          <p>$750.75</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text padding="35px 0 0px 0px" font-size="24px" align="right">
+          <a href="#"class="directions" style="text-decoration: none; color: #ff5a5f">View Receipt</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="35px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text padding="35px 0 0px 0px" font-size="24px">
+          <p>Reservation Code</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text padding="35px 0 0px 0px" font-size="24px" align="right">
+          <p>DVBKRTY</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="35px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center"font-size="24px" font-weight="600" padding="35px 0 0">
+          <a href="#" class="top-button2">Change Your Reservation</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="80%">
+        <mj-text font-size="16px">
+          <h1 style="padding: 60px 0px 20px 0px; margin: 0px;">Anthony is your host</h1>
+          <p style="font-size: 18px; padding: 0px 0px 0px 0px;">Contact Anthony to coordinate arrival time and key</p>
+          <p style="font-size: 18px; padding: 15px 0px 0px 0px;">exchange.</p>
+          <span style="display: block; padding: 50px 0 0 0"><a href="#" style="color: #ff5a5f; text-decoration: none; padding: 20px 0 0 0;">Message Host</a><span style="padding: 0 15px;">&bull;</span><a href="#" style="color: #ff5a5f; text-decoration: none;">+1 (678) 123-4567</a></span>
+        </mj-text>
+      </mj-column>
+      <mj-column width="20%">
+        <mj-image css-class="ant-pic" padding="50px 0px 0px 0px" src="https://i.ibb.co/xHLHtMH/Anthony.jpg" width="80px" border-radius="50%" align="right" alt="Anthony" />
+        <mj-image css-class="review" src="https://a1.muscache.com/airbnb/rookery/dls/5.0_stars-8b3a9b9fe0d1aa014b1f97859cd599b1.png" alt="5 star rating" width="80px" align="right" padding="20px 0 0 0" />
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="10%" align="left" padding="50px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="16px">
+          <h1 style="padding: 50px 0px 20px 0px; margin: 0px;">Know what to expect</h1>
+          <p style="font-size: 18px; padding: 0px 0px 0px 0px">Make sure to review the house rules and amenities.</p>
+          <a href="#" style="color: #ff5a5f; text-decoration: none; padding: 50px 0 0 0; display: block;">View House Rules and Manual</a>
+        </mj-text>
+    </mj-section>
+     <mj-section>
+      <mj-column>
+        <mj-divider width="10%" align="left" padding="50px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="16px">
+          <h1 style="padding: 50px 0px 0px 0px; margin: 0px;">Customer support</h1>
+          <span style="display: block; padding: 15px 0 0 0; font-weight: bold;"><a href="#" style="color: #ff5a5f; text-decoration: none; padding: 20px 0 0 0;">Visit Help Center</a><span style="padding: 0 15px;">&bull;</span><a href="#" style="color: #ff5a5f; text-decoration: none;">Contact Airbnb</a></span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="50px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="15%">
+        <mj-image src="https://a1.muscache.com/airbnb/rookery/email/icons/dollar_sign_small-1b3b20b329165157d970e14352f53ab5.png" width="80px" padding="50px 0 0 0" align="left" alt="dollar sign" />
+      </mj-column>
+      <mj-column width="85%">
+         <mj-text font-size="16px">
+          <h1 style="padding: 50px 0px 0px 0px; margin: 0px;">Earn up to $95</h1>
+           <p style="font-size: 18px; padding: 10px 0px 0px 0px; line-height: 1.5;">Share your personal invite link to give friends $40 off their first trip! You'll get $20 when they travel and $75 when they host.</p>
+           <a href="#" style="color: #ff5a5f; text-decoration: none; padding: 50px 0 0 0; display: block; font-weight: 800;">Invite Friends</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="50px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="18px">
+          <h1 style="padding: 50px 0px 0px 0px; margin: 0px; font-weight: 700">Find unique things to do in San Francisco</h1>
+           <p style="font-size: 18px; padding: 10px 0px 0px 0px; line-height: 1.5;">Experiences are activities led by local experts. Book everything from short lessons to week-long excursions. You’ll get to meet other travelers and do things you can’t find on your own.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column padding="50px 10px 0 0">
+        <mj-image src="https://a0.muscache.com/im/pictures/e86c7a92-e541-4b6b-90e3-739e9f423d5f.jpg" width="260px" height="400px" alt="sake tasting" />
+        <mj-text>
+        <p style="font-size: 18px; padding: 10px 0px 0px 0px; line-height: 1.4; font-weight: 700;">Taste sake in a brewery paired with pickles and chocolate</p>
+        <p style="font-size: 16px; padding-top: 10px">2-hour experience</p>
+        <a href="#" style="font-size: 16px; text-decoration: none; color: #0a0a0a; font-weight: 800; display: block; padding-top: 10px">See details &#8250;</a>
+        </mj-text>
+      </mj-column>
+      <mj-column padding="50px 10px 0 0">
+        <mj-image src="https://4.bp.blogspot.com/-VbWXaNl6yDs/Tb4taS5eg4I/AAAAAAAADLQ/vkdgn_9U55M/s400/DSC_0197copy.jpg" width="260px" height="400px" alt="bike tour" />
+        <mj-text>
+        <p style="font-size: 18px; padding: 10px 0px 0px 0px; line-height: 1.4; font-weight: 700;">A food meets bike tour of SF's culinary capital</p>
+        <p style="font-size: 16px; padding-top: 10px">4-hour experience</p>
+        <a href="#" style="font-size: 16px; text-decoration: none; color: #0a0a0a; font-weight: 800; display: block; padding-top: 10px">See details &#8250;</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider width="100%" padding="100px 0 0" border-width="2px" border-color="#d3d3d3"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text color="#9ca299">
+          <p style="padding-top: 40px; font-size: 16px;">Sent with &#9829; from Airbnb</p>
+          <p style="padding-top: 20px; font-size: 16px;">Airbnb Inc., 888 Brannan St, San Francisco, CA 94103</p>
+          <a href="#" style="font-size: 16px; text-decoration: underline; font-weight: 700; display: block; padding-top: 20px; padding-bottom: 40px; color: #9ca299;">Earn Travel Credit</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>                   
